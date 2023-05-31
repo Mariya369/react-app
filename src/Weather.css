@@ -1,0 +1,84 @@
+.Wrapper {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+ .Wrapper form {
+    border-radius: 4px;
+    margin-bottom: 30px;
+ }
+
+ .form-control {
+    width: 60%;
+    height: 30px;
+ }
+
+ .btn {
+    width: 120px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+ }
+
+ .columns {
+    display: flex;
+    flex: 1;
+ } 
+
+ .main {
+    flex: 1;
+    order: 2;
+ }
+
+ .sidebar-first {
+    width: 27%;
+     order: 1;
+ }
+
+ .sidebar-second {
+    width: 27%;
+    order: 3;
+ }
+
+.Wrapper h1 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 29px;
+    text-align: left;
+}
+
+.Wrapper li {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    list-style: none;   
+    margin-left: -40px;
+}
+
+.description {
+    text-transform: capitalize;
+}
+
+.temperature {
+    color: rgb(33, 33, 33);
+    font-weight: bold;
+    font-size: 64px;
+}
+
+.unit {
+    color: rgb(33, 33, 33);
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    top: -34px;
+    line-height: 1;
+    margin-right: 50px;
+}
+
+.temperature canvas {
+    margin-right: 10px;
+    display: inline-block;
+}
