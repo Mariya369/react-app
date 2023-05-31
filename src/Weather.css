@@ -4,43 +4,57 @@
     padding: 1rem;
 }
 
- .Wrapper form {
+.Wrapper form {
     border-radius: 4px;
-    margin-bottom: 30px;
- }
+    margin-bottom: 20px;
+}
 
- .form-control {
+.form-control {
     width: 60%;
     height: 30px;
- }
+}
 
- .btn {
+.btn {
     width: 120px;
     height: 30px;
     background-color: blue;
     color: white;
     border-radius: 4px;
- }
+}
 
- .columns {
+.columns {
     display: flex;
     flex: 1;
- } 
+}
 
- .main {
+.main {
     flex: 1;
     order: 2;
- }
+}
 
- .sidebar-first {
-    width: 27%;
-     order: 1;
- }
+.sidebar-first {
+    width: 50%;
+    order: 1;
+}
 
- .sidebar-second {
-    width: 27%;
+.sidebar-second {
+    width: 25%;
     order: 3;
- }
+}
+
+@media (max-width: 768px) {
+    .sidebar-first, .sidebar-second, .main {
+        width: 100%;
+    }
+
+    .columns {
+        flex-direction: column;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+}
 
 .Wrapper h1 {
     font-size: 24px;
@@ -54,18 +68,20 @@
     font-weight: 400;
     line-height: 16px;
     text-align: left;
-    list-style: none;   
+    list-style: none;
     margin-left: -40px;
 }
 
 .description {
     text-transform: capitalize;
+    margin-bottom: 20px;
 }
 
 .temperature {
     color: rgb(33, 33, 33);
     font-weight: bold;
-    font-size: 64px;
+    font-size: 58px;
+    margin-left: 50px;
 }
 
 .unit {
@@ -79,6 +95,7 @@
 }
 
 .temperature canvas {
+    margin-top: 20px;
     margin-right: 10px;
     display: inline-block;
 }

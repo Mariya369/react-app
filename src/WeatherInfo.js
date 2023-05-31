@@ -8,12 +8,7 @@ export default function WeatherInfo(props) {
     <div className="WeatherInfo">
     <section className="columns">
     <div className="main">
-        <div className="float-left">
-        <WeatherIcon code={props.data.icon} alt={props.data.description} />
-        </div>
-   <div className="float-left">
-    <WeatherTemperature celsius={props.data.temperature} />
-   </div>
+       
    </div>
    <div className="sidebar-first">
    <h1>{props.data.city}</h1>
@@ -22,6 +17,10 @@ export default function WeatherInfo(props) {
    <FormattedDate date={props.data.date} />
    </li>
    <li className="description">{props.data.description}</li>
+   <li>
+        <WeatherIcon code={props.data.icon} alt={props.data.description} />
+    <WeatherTemperature celsius={props.data.temperature} />
+   </li>
   </ul>
   </div>
    <div className="sidebar-second">
