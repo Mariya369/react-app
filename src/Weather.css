@@ -38,6 +38,7 @@
 }
 
 .sidebar-second {
+    margin-top: 80px;
     width: 25%;
     order: 3;
 }
