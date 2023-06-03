@@ -1,53 +1,71 @@
 .Wrapper {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    box-shadow: 8px 8px 16px #d9d9d9, -8px -8px 16px #ffffff;
+    padding: 20px;
     border: 1px solid rgb(0, 0, 0);
-    border-radius: 4px;
-    padding: 1rem;
+    border-radius: 10px;
+    
 }
 
 .Wrapper form {
-    border-radius: 4px;
+    background-color: #f0f0f0;
+    box-shadow: 8px 8px 16px #d9d9d9, -8px -8px 16px #ffffff;
+    padding: 20px;
+    border-radius: 10px;
     margin-bottom: 20px;
 }
 
 .form-control {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    box-shadow: 8px 8px 16px #d9d9d9, -8px -8px 16px #ffffff;
     width: 60%;
     height: 30px;
 }
 
 .btn {
+    box-shadow: 8px 8px 16px #d9d9d9, -8px -8px 16px #ffffff;
     width: 120px;
     height: 30px;
-    background-color: blue;
-    color: white;
+    background-color: #f0f0f0;
+    color: #212121;
     border-radius: 4px;
 }
 
 .columns {
+    background-color: #f0f0f0;
+    box-shadow: 8px 8px 16px #d9d9d9, -8px -8px 16px #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
     display: flex;
-    flex: 1;
+    flex-direction: row;
 }
 
 
 .sidebar-first {
+    background-color: #f0f0f0;
+    box-shadow: 8px 8px 16px #d9d9d9, -8px -8px 16px #ffffff;
+    border-radius: 10px;
+    padding: 20px;
     flex: 1;
-    width: 30%;
     order: 1;
 }
 
 .sidebar-second {
-    margin-top: 50%;
-    width: 30%;
+    background-color: #f0f0f0;
+    box-shadow: 8px 8px 16px #d9d9d9, -8px -8px 16px #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 40%;
     order: 2;
 }
 
 @media (max-width: 768px) {
-    .sidebar-first, .sidebar-second {
-     
-    }
-
-    .columns {
-        flex-direction: column;
-    }
 
     .form-control {
         width: 60%;
@@ -83,7 +101,7 @@
 }
 
 .unit {
-    color: rgb(33, 33, 33);
+    color: #212121;
     font-size: 16px;
     font-weight: 400;
     position: relative;
