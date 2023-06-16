@@ -14,12 +14,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "ios": "react-native run-ios",
-    "start": "react-scripts start"
-    "test": "jest",
-    "build": "npm run build", // Add this line to define the build script
-    "test:e2e": "npm run test",
-    "test:e2e:build": "npm run build"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
