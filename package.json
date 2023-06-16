@@ -15,7 +15,7 @@
   },
   "scripts": {
     "ios": "react-native run-ios",
-    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "start": "react-scripts start"
     "test": "jest",
     "build": "npm run build", // Add this line to define the build script
     "test:e2e": "npm run test",
